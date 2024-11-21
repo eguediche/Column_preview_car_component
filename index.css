@@ -19,11 +19,7 @@ body {
 }
 
 .boite1 {
-	padding: 30px;
-	align-items: start;
-	flex-direction: column;
 	background-color: #e28625;
-	display: flex;
 }
 
 .img-voiture {
@@ -80,9 +76,25 @@ button{
     background-color: #004140;
 }
 
-.button:hover{
-background-color: transparent;
-padding: 9px;
+.button1:hover{
+background-color: #e28625;
+color:white;
+border-radius: 2px;
+border-color: white;
+}
+
+.button2:hover{
+    background-color: #006971;
+    color: white;
+    border-radius: 2px;
+    border-color: white;
+}
+
+.button3:hover{
+    background-color: #004140;
+    color: white;
+    border-radius: 2px;
+    border-color: white;
 }
 
 @media screen and (min-width: 1000px){
