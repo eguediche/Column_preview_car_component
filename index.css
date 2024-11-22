@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -25,8 +25,8 @@ body {
 .img-voiture {
 	flex-direction: column;
 	position: relative;
-    margin-top: 10%;
-    margin-left: 10%;
+	margin-top: 10%;
+	margin-left: 10%;
 }
 
 h1 {
@@ -35,103 +35,102 @@ h1 {
 	line-height: 47.88px;
 	text-align: left;
 	color: white;
-    margin-top: 10%;
-    margin-left: 10%;
+	margin-top: 10%;
+	margin-left: 10%;
 }
 
-h3{
-    color: white;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-    font-family: "Lexend Deca", sans-serif;
+h3 {
+	color: white;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: left;
+	font-family: "Lexend Deca", sans-serif;
 }
 
-.button1{
-    margin-top: 15%;
-    margin-left: 10%;
-    background-color: white;
-    border-radius: 36px;
-    width: 146px;
-    height: 48px;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: center;
-    margin-bottom: 10%;
-    border: none;
-    color: #e28625;
+.button1 {
+	margin-top: 17%;
+	margin-left: 10%;
+	background-color: white;
+	border-radius: 36px;
+	width: 146px;
+	height: 48px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: center;
+	margin-bottom: 10%;
+	border: none;
+	color: #e28625;
 }
 
-.button2{
-    margin-top: 15%;
-    margin-left: 10%;
-    background-color: white;
-    border-radius: 36px;
-    width: 146px;
-    height: 48px;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: center;
-    margin-bottom: 10%;
-    border: none;
-    color: #006971;
+.button2 {
+	margin-top: 15%;
+	margin-left: 10%;
+	background-color: white;
+	border-radius: 36px;
+	width: 146px;
+	height: 48px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: center;
+	margin-bottom: 10%;
+	border: none;
+	color: #006971;
 }
 
-.button3{
-    margin-top: 15%;
-    margin-left: 10%;
-    background-color: white;
-    border-radius: 36px;
-    width: 146px;
-    height: 48px;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: center;
-    margin-bottom: 10%;
-    border: none;
-    color: #004140;
+.button3 {
+	margin-top: 15%;
+	margin-left: 10%;
+	background-color: white;
+	border-radius: 36px;
+	width: 146px;
+	height: 48px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: center;
+	margin-bottom: 10%;
+	border: none;
+	color: #004140;
+}
+
+.boite2 {
+	background-color: #006971;
+}
+
+.boite3 {
+	background-color: #004140;
 }
 
 
-.boite2{
-    background-color: #006971;
-}
+@media screen and (min-width: 1000px) {
+	.boite0 {
+		display: flex;
+		flex-direction: row;
 
-.boite3{
-    background-color: #004140;
-}
 
-.button1:hover{
-background-color: #e28625;
-color:white;
-border-width: 5px;
-border-color: white;
-}
+	}
 
-.button2:hover{
-    background-color: #006971;
-    color: white;
-    border-radius: 2px;
-    border-color: white;
-}
-
-.button3:hover{
-    background-color: #004140;
-    color: white;
-    border-radius: 2px;
-    border-color: white;
-}
-
-@media screen and (min-width: 1000px){
-    .boite0{
-        display: flex;
-        flex-direction: row;
+    .button1:hover {
+        background-color: #e28625;
+        color: white;
+        border: 2px white solid;
+    }
+    
+    .button2:hover {
+        background-color: #006971;
+        border: 2px white solid;
+        color: white;
+    }
+    
+    .button3:hover {
+        background-color: #004140;
+        border: 2px white solid;
+        color: white;
     }
 }
