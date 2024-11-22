@@ -51,12 +51,11 @@ h3{
     font-family: "Lexend Deca", sans-serif;
 }
 
-button{
+.button1{
     margin-top: 15%;
     margin-left: 10%;
     background-color: white;
     border-radius: 36px;
-    color: #e28625;
     width: 146px;
     height: 48px;
     font-size: 15px;
@@ -65,6 +64,39 @@ button{
     text-align: center;
     margin-bottom: 10%;
     border: none;
+    color: #e28625;
+}
+
+.button2{
+    margin-top: 15%;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 36px;
+    width: 146px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 10%;
+    border: none;
+    color: #006971;
+}
+
+.button3{
+    margin-top: 15%;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 36px;
+    width: 146px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 10%;
+    border: none;
+    color: #004140;
 }
 
 
@@ -79,7 +111,7 @@ button{
 .button1:hover{
 background-color: #e28625;
 color:white;
-border-radius: 2px;
+border-width: 5px;
 border-color: white;
 }
 
